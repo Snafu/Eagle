@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -13997,8 +13997,8 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="SV1" library="con-lstb" deviceset="MA20-2" device="BIG"/>
-<part name="SV2" library="con-lstb" deviceset="MA20-2" device="BIG"/>
+<part name="SV1" library="con-lstb" deviceset="MA20-2" device=""/>
+<part name="SV2" library="con-lstb" deviceset="MA20-2" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -14022,7 +14022,7 @@ Source: www.kingbright.com</description>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/15" value="10k"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0207/12" value="10k"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="DBG_R" library="resistor-sil" deviceset="G08R" device="" value="100"/>
 <part name="DBG1" library="led" deviceset="LED" device="SQR2X5"/>
@@ -14040,7 +14040,6 @@ Source: www.kingbright.com</description>
 <part name="C2" library="resistor" deviceset="C-EU" device="025-025X050" value="100n"/>
 <part name="MOTOR" library="pinhead" deviceset="PINHD-1X3" device="/90"/>
 <part name="SERVO" library="pinhead" deviceset="PINHD-1X3" device="/90"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0207/10" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -14113,10 +14112,6 @@ Source: www.kingbright.com</description>
 <instance part="C2" gate="G$1" x="243.84" y="154.94"/>
 <instance part="MOTOR" gate="A" x="210.82" y="142.24"/>
 <instance part="SERVO" gate="A" x="210.82" y="116.84"/>
-<instance part="R3" gate="G$1" x="213.36" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="211.8614" y="62.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="210.058" y="69.85" size="1.778" layer="96" rot="R270"/>
-</instance>
 </instances>
 <busses>
 <bus name="P0.[0..15],P1.[0..15],P2.[0..15],P3.[0..15],P4.[0..7],P5.[0..11],P6.[0..6],P14.[0..15],P15.[2..15],HIB_IO_0,HIB_IO_1,RESET#">
@@ -14289,12 +14284,13 @@ Source: www.kingbright.com</description>
 <wire x1="198.12" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="81.28" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <junction x="213.36" y="60.96"/>
 <pinref part="IR_CAM" gate="G$1" pin="9"/>
 <wire x1="213.36" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="83.82" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IR_CAM" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="73.66" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BLUETOOTH" gate="G$1" pin="1"/>
@@ -14911,12 +14907,6 @@ Source: www.kingbright.com</description>
 <wire x1="172.72" y1="134.62" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <label x="170.18" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="IR_CAM" gate="G$1" pin="3"/>
-<wire x1="213.36" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="76.2" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="218.44" y="76.2" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="P0.6" class="0">
 <segment>
@@ -15008,13 +14998,6 @@ Source: www.kingbright.com</description>
 <pinref part="DBG8" gate="G$1" pin="C"/>
 <wire x1="129.54" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="27.94" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="IR_CAM" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="73.66" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
