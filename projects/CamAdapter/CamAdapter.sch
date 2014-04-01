@@ -4094,7 +4094,7 @@ Metric Code Size 5664</description>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="QG1" library="crystal" deviceset="SM77H" device=""/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -4254,6 +4254,8 @@ Metric Code Size 5664</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="83.82" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="60.96" y="83.82"/>
+<pinref part="QG1" gate="G$1" pin="E/D"/>
+<wire x1="71.12" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
