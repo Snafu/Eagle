@@ -3,7 +3,7 @@
 
 
 # You may want to uncomment and change those in local project files
-basename=XMC_Shield
+basename=CamAdapter
 #front=board.front.gbr
 back=back.gbr
 outline=outline.gbr
@@ -15,8 +15,8 @@ fill-outline = yes
 outline-width = 0.010
 
 # parameters for isolation routing / engraving / etching
-#offset=1			# uncomment for voronoi regions
-offset=0.005		# uncomment for 10mil isolator
+#offset=1				# voronoi regions
+offset=0.006		# 12mil isolator
 zwork=-0.008
 zsafe=0.08
 mill-feed=6
@@ -24,7 +24,7 @@ mill-speed=30000
 
 
 # parameters for cutting out boards
-cutter-diameter=0.03937
+cutter-diameter=0.03937		# 1 mm
 zcut=-0.08
 cut-feed=3
 cut-speed=20000
