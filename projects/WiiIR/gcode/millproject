@@ -7,7 +7,7 @@ basename=XMC_Shield
 #front=board.front.gbr
 back=back.gbr
 outline=outline.gbr
-drill=drill.ngc
+drill=drill.drd
 
 
 # The board outline is 10mil wide, no holes
