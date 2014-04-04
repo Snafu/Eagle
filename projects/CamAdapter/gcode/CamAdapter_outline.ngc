@@ -11,15 +11,15 @@ G64 P0.00500 ( set maximum deviation from commanded toolpath )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.08000 ( retract )
 
-G00 X0.25300 Y1.86400 ( rapid move to begin. )
+G00 X0.16100 Y1.86400 ( rapid move to begin. )
 G01 Z-0.08000 F3.00000 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
-X0.25300 Y1.86400
-X0.25300 Y0.20400
-X1.28300 Y0.20400
-X1.28300 Y1.88400
-X0.25300 Y1.88400
-X0.25300 Y1.86400
+X0.16100 Y1.86400
+X0.16100 Y0.21200
+X1.17500 Y0.21200
+X1.17500 Y1.87600
+X0.16100 Y1.87600
+X0.16100 Y1.86400
 
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.80000 ( retract )
