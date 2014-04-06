@@ -1,6 +1,7 @@
 # this is an example config file for pcb2gcode.
 # place this in the same directory as your gerber files to save typing
 
+dpi=1500
 
 # You may want to uncomment and change those in local project files
 basename=CamAdapter
@@ -11,8 +12,8 @@ drill=drill.drd
 
 
 # The board outline is 10mil wide, no holes
-fill-outline = yes
-outline-width = 0.001
+fill-outline=yes
+outline-width=0.002
 
 # parameters for isolation routing / engraving / etching
 #offset=1				# voronoi regions

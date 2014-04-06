@@ -56,10 +56,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="55.88" y2="0" width="0" layer="20"/>
-<wire x1="55.88" y1="0" x2="55.88" y2="74.93" width="0" layer="20"/>
-<wire x1="55.88" y1="74.93" x2="0" y2="74.93" width="0" layer="20"/>
-<wire x1="0" y1="74.93" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="55.88" y2="0" width="0.0508" layer="20"/>
+<wire x1="55.88" y1="0" x2="55.88" y2="74.93" width="0.0508" layer="20"/>
+<wire x1="55.88" y1="74.93" x2="0" y2="74.93" width="0.0508" layer="20"/>
+<wire x1="0" y1="74.93" x2="0" y2="0" width="0.0508" layer="20"/>
 <text x="53.34" y="71.12" size="1.4224" layer="16" font="vector" ratio="20" rot="MR0">TUtheTOP 2013/14</text>
 <text x="53.34" y="3.81" size="1.4224" layer="16" font="vector" ratio="20" rot="MR0">Albin F, Christopher G, Matthias Z</text>
 <text x="10.16" y="71.12" size="1.4224" layer="16" font="vector" ratio="20" rot="MR0">rev 2.0</text>
